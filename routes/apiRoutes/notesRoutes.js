@@ -3,12 +3,12 @@ const {validateNote, createNewNote} = require('../../lib/notes');
 const { notes } = require('../../db/db.json');
 const { v4: uuidv4 } = require('uuid');
 
-router.get('/api/notes', (req, res) => {
+router.get('/notes', (req, res) => {
     let results = notes;
     res.json(results);
 });
 
-router.post('/api/notes', (req, res) => {
+router.post('/notes', (req, res) => {
     // use uuid package to create a unique id for the new note
     req.body.id = uuidv4();
 

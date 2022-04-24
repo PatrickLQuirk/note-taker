@@ -1,6 +1,14 @@
-[
+{
+  "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "Fix Note Taker",
+      "text": "Fix the front-end and back-end problems with Note Taker",
+      "id": "38438960-0de1-4371-9daf-9119c3dd8ac6"
+    },
+    {
+      "title": "Note Taker README",
+      "text": "Create a README.md file for my Note Taker project. The project has to be submitted by 11:59 p.m. today (4/24/2022)",
+      "id": "63cb2a72-ec41-4b6a-b6a0-258144b734a5"
     }
-]
+  ]
+}
